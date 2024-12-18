@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/royal.webp); /*background change*/
+    background-image: url(images/animebg_try.jpg); /*background change*/
     background-size: cover;
     background-position: center;
 }
@@ -28,7 +28,9 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 140px;
+    width: 200px;
+    
+     
 }
 nav ul li{
     display: inline-block;
@@ -360,7 +362,7 @@ display: none;
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/anime.jpeg);
+        background-image: url(images/dark_relief.jpeg);
     }
     /* ----------image in phones---------------- */
     .header-text{
